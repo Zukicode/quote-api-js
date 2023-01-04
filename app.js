@@ -22,8 +22,6 @@ async function getQuotes() {
 	});
 	const data = await response.json();
 
-	console.log(data)
-
 	markUp(data)
 }
 
